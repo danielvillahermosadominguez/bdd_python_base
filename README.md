@@ -6,32 +6,36 @@ We have used to configure this environment:
 *  Python 3.10.5 or +
 
 From the terminal you can use the following commands to start:
-
+1. Install the virtual environment 
 ``` bash
--- 1. install the virtual environment -- only the first time
     pip install virtualenv
     python -m venv .\venv   
-
--- 2. activate the environment -- (windows) -- one time when you open the terminal
+```
+2. Activate the environment -- (windows) 
+```
     .\venv\Scripts\activate.bat
-
----3.  install dependencies --- only the first time
+```
+3. Install dependencies 
+``` bash
     pip install -r requirements.txt
-
---- 4. execute the unit tests --- when you need to execute unit tests
+```
+4. Execute the unit tests
+``` bash
     pytest  
-
---- 5. coverage --- when you need to do it
+```
+5. Execute coverage 
+``` bash
     coverage run -m pytest     <- generate the coverage    
     coverage report <- you can see in the terminal
     coverage html <- an html report is generated
-
---- 6. Behave (BDD) --- when you need to execute BDD tests    
-    behave
-
 ```
-You can open the folder with Visual Studio Code and you could execute, pass the tests, etc.
-# Using Visual Studio Code
+6. Execute Behave (BDD) 
+``` bash
+    behave
+```
+If everything has going well you can open your IDE. 
+
+## Using Visual Studio Code
 * From the terminal go to the "bdd_python_base" folder
 * type "code ." and the visual studio code will be open
 * Install a plugin for Guerkin syntax. For example: Feature Syntax Highlight and snippets(Cucumber/Guerkin)
@@ -40,9 +44,17 @@ You can open the folder with Visual Studio Code and you could execute, pass the 
 
 NOTE:If you have some problem with the test explorer, you could reconfigurate it if you remove the .vscode/settings.json and configure it again.
 
-# Using PyCharm
-TBD
-
+## Using PyCharm
+* Open PyCharm an close the projects (if you have an open project)
+* Open the folder "bdd_python_base" 
+* Open <No interpreter> (In the right-down corner) -> Interpreter settings -> Add interpreter-> add local interpeter -> Virtualenv environment
+* Select Evironment: Existing
+* Select the folder <your folder>\venv\Scripts\python.exe and click ok
+* Open Run-> Edit configurations-> + ->Python Test -> Pytest
+  * Check your Python interpeter is the interpreter you have created in your folder
+  * Select the target the folder "bdd_python_base" 
+* Open Run-> Edit configurations-> + ->Behave
+ * Check your Python interpeter is the interpreter you have created in your folder
 
 # Detailed information about the environment preparation
 If you want to prepare all the environment from Zero, you have here all the steps and considerations. If you don't want to do it, you don't need to read the following information.

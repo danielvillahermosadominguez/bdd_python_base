@@ -1,10 +1,10 @@
-<testsuite name="dummy.Dummy Feature" tests="1" errors="0" failures="0" skipped="0" time="0.002998" timestamp="2023-02-18T10:23:32.432802" hostname="LAPTOP-GDDVN0O7"><testcase classname="dummy.Dummy Feature" name="Dummy Scenario" status="passed" time="0.002998"><system-out>
+<testsuite name="dummy.Dummy Feature" tests="1" errors="0" failures="0" skipped="0" time="0.0" timestamp="2023-02-18T11:13:17.402882" hostname="LAPTOP-GDDVN0O7"><testcase classname="dummy.Dummy Feature" name="Dummy Scenario" status="passed" time="0.0"><system-out>
 <![CDATA[
 @scenario.begin
   Scenario: Dummy Scenario
-    Given a dummy given ... passed in 0.001s
-    When a dummy thing happens ... passed in 0.001s
-    Then a dummy result happens too ... passed in 0.001s
+    Given a dummy given ... passed in 0.000s
+    When a dummy thing happens ... passed in 0.000s
+    Then a dummy result happens too ... passed in 0.000s
 
 @scenario.end
 --------------------------------------------------------------------------------
