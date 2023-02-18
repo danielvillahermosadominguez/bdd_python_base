@@ -140,3 +140,6 @@ debug.log
 
 .scannerwork
 src/out_report.xml
+
+#idea
+.idea

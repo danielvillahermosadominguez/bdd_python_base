@@ -31,6 +31,17 @@ From the terminal you can use the following commands to start:
 
 ```
 You can open the folder with Visual Studio Code and you could execute, pass the tests, etc.
+# Using Visual Studio Code
+* From the terminal go to the "bdd_python_base" folder
+* type "code ." and the visual studio code will be open
+* Install a plugin for Guerkin syntax. For example: Feature Syntax Highlight and snippets(Cucumber/Guerkin)
+  * Ctrl+Shift+P -> Python:Configure Test->pytest. You can execute the test with Test Explorer
+  * Or with "Run and debug" -> Select "Unit test execution"
+
+NOTE:If you have some problem with the test explorer, you could reconfigurate it if you remove the .vscode/settings.json and configure it again.
+
+# Using PyCharm
+TBD
 
 
 # Detailed information about the environment preparation
