@@ -130,7 +130,6 @@ dmypy.json
 
 #others
 data
-.vscode
 .pytest_cache
 src/allure-report
 src/data

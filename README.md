@@ -158,7 +158,9 @@ testpaths =
 ## 6. pytest with visual studio code
 
 You need to go to the icon of "Testing" -> Configure Python tests->pytest (pytest framework) and select the folder  "c:\workspace\bdd_python_base". 
-* Ctrl+Shift+P -> Python:Configure Test->
+* Ctrl+Shift+P -> Python:Configure Test->pytest
+
+NOTE:If you have some problem with the test explorer, you could reconfigurate it if you remove the .vscode/settings.json and configure it again.
 
 Or with "Run and debug" -> Select "Unit test execution"
 
