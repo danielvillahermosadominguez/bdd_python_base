@@ -131,15 +131,14 @@ dmypy.json
 #others
 data
 .pytest_cache
-src/allure-report
-src/data
-src/html-coverage
-src/reports
-src/report
+allure-report
+data
+html-coverage
+reports
 debug.log
 
 .scannerwork
-src/out_report.xml
+out_report.xml
 
 #idea
 .idea
