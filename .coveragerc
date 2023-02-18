@@ -1,0 +1,7 @@
+    [html]
+    directory = html-coverage
+    [run]
+    omit = 
+        dummy/__init__.py
+        tests/*        
+       
